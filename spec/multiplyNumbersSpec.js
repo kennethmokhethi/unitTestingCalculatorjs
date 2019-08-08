@@ -7,6 +7,11 @@ describe("multiple numbers",()=>{
       expect(product).toBe(2);
 
    });
+   it("multiply multiple numbers",()=>{
+       var arr=[1,2,3,4];
+       var product=multiplyMultNums(arr);
+       expect(product).toBe(24);
+   })
 
 
 });
