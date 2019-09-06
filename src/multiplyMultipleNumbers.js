@@ -1,10 +1,10 @@
 // functions that multipl multiple numbers together
-function multiplyMultNums(arr)
+function multiplyMultNums()
 {
   product=1
-  for(let i=0;i<arr.length;i++)
+  for(let i=0;i<arguments.length;i++)
   {
-      product=product*arr[i];
+      product=product*arguments[i];
   }
 
   return product;
