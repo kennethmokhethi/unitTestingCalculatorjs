@@ -1,3 +1,5 @@
+let sumNumbers = require("../src/addMultipleNumbers");
+let multiplyMultNums = require("../src/multiplyMultipleNumbers");
 describe("Maths operations", () => {
   //Testing the functions for addintion of two and multiply numbers
 
